@@ -1,5 +1,7 @@
 import React from 'react';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
   return (
@@ -7,12 +9,12 @@ const Navbar = () => {
       <div className='navbar-left'>
         <img src='https://m.media-amazon.com/images/I/31JfJ6dXD9L.png' alt='Netflix Logo'/>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>TV Shows</li>
-          <li>News & Popular</li>
-          <li>My List</li>
-          <li>Browse By Languages</li>
+          <Link to="/">Home</Link>
+          <Link to="/">About</Link>
+          <Link to="/">TV Shows</Link>
+          <Link to="/">News & Popular</Link>
+          <Link to="/">My List</Link>
+          <Link to="/">Browse By Languages</Link>
         </ul>
       </div>
    </div>
