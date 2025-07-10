@@ -10,11 +10,11 @@ const Navbar = () => {
         <img src='https://m.media-amazon.com/images/I/31JfJ6dXD9L.png' alt='Netflix Logo'/>
         <ul>
           <Link to="/">Home</Link>
-          <Link to="/">About</Link>
-          <Link to="/">TV Shows</Link>
-          <Link to="/">News & Popular</Link>
-          <Link to="/">My List</Link>
-          <Link to="/">Browse By Languages</Link>
+          <Link to="/About">About</Link>
+          <Link to="/TVShows">TV Shows</Link>
+          <Link to="/News&Popular">News & Popular</Link>
+          <Link to="/MyList">My List</Link>
+          <Link to="/BrowseByLanguages">Browse By Languages</Link>
         </ul>
       </div>
    </div>
